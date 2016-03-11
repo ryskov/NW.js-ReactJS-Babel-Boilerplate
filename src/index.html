@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+			body {
+				overflow: hidden;
+				padding: 0px;
+				margin: 0px;
+                font-family: verdana;
+                text-align: center;
+                border-radius: 10px;
+                -webkit-user-select: none;
+			}
+            
+            #content {
+                padding: 0px;
+            }
+		</style>
+    </head>
+    <body>
+        <div id="content"></div>
+        
+        <script>
+            global.document = window.document;
+            global.navigator = window.navigator;
+            
+            require('babel-core/register')({
+                presets: ['react', 'es2015']
+            });
+            
+            require('./js/index.js');
+        </script>
+    </body>
+</html>

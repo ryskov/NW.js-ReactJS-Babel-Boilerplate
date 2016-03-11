@@ -1,0 +1,58 @@
+
+/* App */
+.app-container {
+    border: 2px solid #85C0FF;
+    height: -webkit-calc(100% - 4px);
+}
+
+.app-content {
+    font-family: verdana;
+}
+
+/* TopBar */
+.top-bar {
+    height: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#9ECDFF), to(#85C0FF));
+    padding: 0px;
+}
+
+.top-bar-drag-area {
+    -webkit-app-region: drag;
+    width: auto;
+}
+
+.top-bar-button-container {
+    -webkit-app-region: no-drag;
+    width: 57px;
+}
+
+.top-bar-button {
+    -webkit-app-region: no-drag;
+    font-size: 1.3em;
+    text-align: center;
+    cursor: default;
+    width: 25px;
+    height: 25px;
+    margin: 2px 1px 2px 1px;
+    display: inline-block;
+    color: white;
+}
+
+.top-bar-button:hover {
+    color: #efefef;
+}
+
+/* Menu */
+.app-menu-container {
+    max-width: 150px;
+}
+
+.app-menu {
+    width: 150px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+
